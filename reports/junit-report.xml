@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="register-on-the-web;user-access-register-on-arkademy.com" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:\job\DTI\arkademy-register\features\register-invalid.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0024724">
+        </testcase>
+        <testcase name="And user access register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0007938">
+        </testcase>
+        <testcase name="And user fill detail name field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0005102">
+        </testcase>
+        <testcase name="And user fill e-mail field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0004166">
+        </testcase>
+        <testcase name="And user fill phones field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0003522">
+        </testcase>
+        <testcase name="And user fill pass field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0002463">
+        </testcase>
+        <testcase name="And user fill confirm pass field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0003982">
+        </testcase>
+        <testcase name="And user click checkbox syarat ketentuan" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0002489">
+        </testcase>
+        <testcase name="When user click daftar" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0002357">
+        </testcase>
+        <testcase name="Then register failed" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0006909">
+        </testcase>
+    </testsuite>
+</testsuites>
