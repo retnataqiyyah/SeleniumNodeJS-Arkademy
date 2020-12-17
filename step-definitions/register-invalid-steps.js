@@ -5,13 +5,13 @@ module.exports = function () {
     this.Given(/^user access register pages$/, function () {
         helpers.loadPage(shared.pages.devRegister)
     });
-    this.Given(/^user fill detail name field$/, function () {
-        driver.then(function (){
+    this.Given(/^user fill name field with numeric$/, function () {
+        driver.sleep(1000).then(function (){
             return page.fillNameInvalid.performFill()
         })
     });
-    this.Given(/^user fill e-mail field$/, function () {
-        driver.then(function (){
+    this.Given(/^user fill invalid e-mail field$/, function () {
+        driver.sleep(1000).then(function (){
             return page.fillEmailInvalid.performFill()
         })
     });
@@ -20,23 +20,23 @@ module.exports = function () {
             return page.fillPhone.performFill()
         })
     });
-    this.Given(/^user fill pass field$/, function () {
+    this.Given(/^user fill pass field less than eight character$/, function () {
         driver.then(function (){
             return page.fillPasswordInvalid.performFill()
         })
     });
-    this.Given(/^user fill confirm pass field$/, function () {
+    this.Given(/^user fill confirm pass field more than eight character$/, function () {
         driver.then(function (){
             return page.fillConfirmpass.performFill()
         })
     });
     this.Given(/^user click checkbox syarat ketentuan$/, function () {
-        driver.then(function (){
+        driver.sleep(1000).then(function (){
             return page.clickCheckbox.performFill()
         })
       });
     this.When(/^user click daftar$/, function () {
-        driver.then(function (){
+        driver.sleep(1000).then(function (){
             return page.registerBtn.performClick()
         })
     });
