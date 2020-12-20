@@ -1,12 +1,175 @@
 [
   {
+    "description": "    As a user\n    I want to be not able to regis with already email registered",
+    "elements": [
+      {
+        "id": "regis;registration-failed-with-already-email-registered-on-arkademy-before",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Registration failed with already email registered on Arkademy before",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse regis pages",
+            "result": {
+              "status": "passed",
+              "duration": 2469400
+            },
+            "line": 6,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access regis pages",
+            "result": {
+              "status": "passed",
+              "duration": 1947200
+            },
+            "line": 7,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill fullnames field",
+            "result": {
+              "status": "passed",
+              "duration": 736600
+            },
+            "line": 8,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email exist field",
+            "result": {
+              "status": "passed",
+              "duration": 375100
+            },
+            "line": 9,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill phone number field",
+            "result": {
+              "status": "passed",
+              "duration": 353700
+            },
+            "line": 10,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill psw field",
+            "result": {
+              "status": "passed",
+              "duration": 274200
+            },
+            "line": 11,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill confirm psw field",
+            "result": {
+              "status": "passed",
+              "duration": 345500
+            },
+            "line": 12,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click checkbox syarat",
+            "result": {
+              "status": "passed",
+              "duration": 449100
+            },
+            "line": 13,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click button daftar",
+            "result": {
+              "status": "passed",
+              "duration": 500500
+            },
+            "line": 14,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "register failed with email that already exist",
+            "result": {
+              "status": "passed",
+              "duration": 175800
+            },
+            "line": 15,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-email-inv-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 20647505000
+            },
+            "hidden": true,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "regis",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Regis",
+    "tags": [],
+    "uri": "F:/job/DTI/arkademy-register/features/register-email.feature"
+  },
+  {
     "description": "    As a user\n    I want to be able to register",
     "elements": [
       {
-        "id": "register-on-the-web;user-access-register-on-arkademy.com",
+        "id": "register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character",
         "keyword": "Scenario",
         "line": 5,
-        "name": "User access register on arkademy.com",
+        "name": "register failed on arkademy with password less than eight character",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +177,11 @@
             "name": "user browse register pages",
             "result": {
               "status": "passed",
-              "duration": 2234300
+              "duration": 428000
             },
             "line": 6,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:2"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:2"
             }
           },
           {
@@ -27,24 +190,24 @@
             "name": "user access register pages",
             "result": {
               "status": "passed",
-              "duration": 1001600
+              "duration": 651200
             },
             "line": 7,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:5"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:5"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill name field with numeric",
+            "name": "user fill names field",
             "result": {
               "status": "passed",
-              "duration": 955300
+              "duration": 285600
             },
             "line": 8,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:8"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:8"
             }
           },
           {
@@ -53,11 +216,11 @@
             "name": "user fill invalid e-mail field",
             "result": {
               "status": "passed",
-              "duration": 1244700
+              "duration": 448600
             },
             "line": 9,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:13"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:13"
             }
           },
           {
@@ -66,11 +229,11 @@
             "name": "user fill phones field",
             "result": {
               "status": "passed",
-              "duration": 654600
+              "duration": 342600
             },
             "line": 10,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:18"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:18"
             }
           },
           {
@@ -79,11 +242,11 @@
             "name": "user fill pass field less than eight character",
             "result": {
               "status": "passed",
-              "duration": 381700
+              "duration": 230700
             },
             "line": 11,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:23"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:23"
             }
           },
           {
@@ -92,11 +255,11 @@
             "name": "user fill confirm pass field more than eight character",
             "result": {
               "status": "passed",
-              "duration": 569600
+              "duration": 313400
             },
             "line": 12,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:28"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:28"
             }
           },
           {
@@ -105,11 +268,11 @@
             "name": "user click checkbox syarat ketentuan",
             "result": {
               "status": "passed",
-              "duration": 715000
+              "duration": 614700
             },
             "line": 13,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:33"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:33"
             }
           },
           {
@@ -118,11 +281,11 @@
             "name": "user click daftar",
             "result": {
               "status": "passed",
-              "duration": 613700
+              "duration": 464500
             },
             "line": 14,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:38"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:38"
             }
           },
           {
@@ -131,11 +294,11 @@
             "name": "register failed",
             "result": {
               "status": "passed",
-              "duration": 2145900
+              "duration": 891200
             },
             "line": 15,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:43"
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-pass-inv-steps.js:43"
             }
           },
           {
@@ -143,7 +306,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 13844347100
+              "duration": 24345226100
             },
             "hidden": true,
             "match": {
@@ -160,7 +323,170 @@
     "line": 1,
     "name": "Register on the web",
     "tags": [],
-    "uri": "F:/job/DTI/arkademy-register/features/register-invalid.feature"
+    "uri": "F:/job/DTI/arkademy-register/features/register-pass.feature"
+  },
+  {
+    "description": "    As a user\n    I want to not be able to register",
+    "elements": [
+      {
+        "id": "register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "register failed on arkademy with wrong phone number",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse regist pages",
+            "result": {
+              "status": "passed",
+              "duration": 427200
+            },
+            "line": 6,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access regist pages",
+            "result": {
+              "status": "passed",
+              "duration": 548600
+            },
+            "line": 7,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill full names field",
+            "result": {
+              "status": "passed",
+              "duration": 560600
+            },
+            "line": 8,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill e-mail field",
+            "result": {
+              "status": "passed",
+              "duration": 349300
+            },
+            "line": 9,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid phones field",
+            "result": {
+              "status": "passed",
+              "duration": 348300
+            },
+            "line": 10,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill passw field",
+            "result": {
+              "status": "passed",
+              "duration": 345300
+            },
+            "line": 11,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill confirm passw field",
+            "result": {
+              "status": "passed",
+              "duration": 326500
+            },
+            "line": 12,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click checkbox syarat & ketentuan",
+            "result": {
+              "status": "passed",
+              "duration": 420500
+            },
+            "line": 13,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click btn daftar",
+            "result": {
+              "status": "passed",
+              "duration": 542300
+            },
+            "line": 14,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "register failed with wrong phone number",
+            "result": {
+              "status": "passed",
+              "duration": 240600
+            },
+            "line": 15,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-phone-inv-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 13657831700
+            },
+            "hidden": true,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-register\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-on-the-web",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Register on the web",
+    "tags": [],
+    "uri": "F:/job/DTI/arkademy-register/features/register-phone.feature"
   },
   {
     "description": "    As a user\n    I want to be able to register",
@@ -177,7 +503,7 @@
             "name": "user browse register page",
             "result": {
               "status": "passed",
-              "duration": 955000
+              "duration": 375400
             },
             "line": 6,
             "match": {
@@ -190,7 +516,7 @@
             "name": "user access register page",
             "result": {
               "status": "passed",
-              "duration": 423300
+              "duration": 416900
             },
             "line": 7,
             "match": {
@@ -203,7 +529,7 @@
             "name": "user fill name field",
             "result": {
               "status": "passed",
-              "duration": 458300
+              "duration": 349000
             },
             "line": 8,
             "match": {
@@ -216,7 +542,7 @@
             "name": "user fill email field",
             "result": {
               "status": "passed",
-              "duration": 229800
+              "duration": 307000
             },
             "line": 9,
             "match": {
@@ -229,7 +555,7 @@
             "name": "user fill phone field",
             "result": {
               "status": "passed",
-              "duration": 484000
+              "duration": 310600
             },
             "line": 10,
             "match": {
@@ -242,7 +568,7 @@
             "name": "user fill password field",
             "result": {
               "status": "passed",
-              "duration": 383600
+              "duration": 282000
             },
             "line": 11,
             "match": {
@@ -255,7 +581,7 @@
             "name": "user fill confirm password field",
             "result": {
               "status": "passed",
-              "duration": 334600
+              "duration": 287200
             },
             "line": 12,
             "match": {
@@ -268,7 +594,7 @@
             "name": "user click checkbox",
             "result": {
               "status": "passed",
-              "duration": 245400
+              "duration": 322200
             },
             "line": 13,
             "match": {
@@ -281,7 +607,7 @@
             "name": "user click sign",
             "result": {
               "status": "passed",
-              "duration": 398500
+              "duration": 453800
             },
             "line": 14,
             "match": {
@@ -294,7 +620,7 @@
             "name": "register success",
             "result": {
               "status": "passed",
-              "duration": 411700
+              "duration": 498000
             },
             "line": 15,
             "match": {
@@ -306,7 +632,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 10694403400
+              "duration": 17030433500
             },
             "hidden": true,
             "match": {

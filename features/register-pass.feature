@@ -2,10 +2,10 @@ Feature: Register on the web
     As a user
     I want to be able to register
 
-    Scenario: User access register on arkademy.com
+    Scenario: register failed on arkademy with password less than eight character
         Given user browse register pages
         And user access register pages
-        And user fill name field with numeric
+        And user fill names field
         And user fill invalid e-mail field
         And user fill phones field
         And user fill pass field less than eight character

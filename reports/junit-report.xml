@@ -1,29 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="register-on-the-web;user-access-register-on-arkademy.com" tests="10" failures="0" skipped="0">
+    <testsuite name="regis;registration-failed-with-already-email-registered-on-arkademy-before" tests="10" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="F:/job/DTI/arkademy-register/features/register-invalid.feature">
+            <property name="URI" value="F:/job/DTI/arkademy-register/features/register-email.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0022343">
+        <testcase name="Given user browse regis pages" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0024694">
         </testcase>
-        <testcase name="And user access register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0010016">
+        <testcase name="And user access regis pages" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0019472">
         </testcase>
-        <testcase name="And user fill name field with numeric" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0009553">
+        <testcase name="And user fill fullnames field" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0007366">
         </testcase>
-        <testcase name="And user fill invalid e-mail field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0012447">
+        <testcase name="And user fill email exist field" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0003751">
         </testcase>
-        <testcase name="And user fill phones field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0006546">
+        <testcase name="And user fill phone number field" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0003537">
         </testcase>
-        <testcase name="And user fill pass field less than eight character" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0003817">
+        <testcase name="And user fill psw field" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0002742">
         </testcase>
-        <testcase name="And user fill confirm pass field more than eight character" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0005696">
+        <testcase name="And user fill confirm psw field" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0003455">
         </testcase>
-        <testcase name="And user click checkbox syarat ketentuan" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.000715">
+        <testcase name="And user click checkbox syarat" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0004491">
         </testcase>
-        <testcase name="When user click daftar" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0006137">
+        <testcase name="When user click button daftar" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0005005">
         </testcase>
-        <testcase name="Then register failed" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0021459">
+        <testcase name="Then register failed with email that already exist" classname="regis;registration-failed-with-already-email-registered-on-arkademy-before" time="0.0001758">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:/job/DTI/arkademy-register/features/register-pass.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register pages" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.000428">
+        </testcase>
+        <testcase name="And user access register pages" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0006512">
+        </testcase>
+        <testcase name="And user fill names field" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0002856">
+        </testcase>
+        <testcase name="And user fill invalid e-mail field" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0004486">
+        </testcase>
+        <testcase name="And user fill phones field" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0003426">
+        </testcase>
+        <testcase name="And user fill pass field less than eight character" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0002307">
+        </testcase>
+        <testcase name="And user fill confirm pass field more than eight character" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0003134">
+        </testcase>
+        <testcase name="And user click checkbox syarat ketentuan" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0006147">
+        </testcase>
+        <testcase name="When user click daftar" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0004645">
+        </testcase>
+        <testcase name="Then register failed" classname="register-on-the-web;register-failed-on-arkademy-with-password-less-than-eight-character" time="0.0008912">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:/job/DTI/arkademy-register/features/register-phone.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse regist pages" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0004272">
+        </testcase>
+        <testcase name="And user access regist pages" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0005486">
+        </testcase>
+        <testcase name="And user fill full names field" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0005606">
+        </testcase>
+        <testcase name="And user fill e-mail field" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0003493">
+        </testcase>
+        <testcase name="And user fill invalid phones field" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0003483">
+        </testcase>
+        <testcase name="And user fill passw field" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0003453">
+        </testcase>
+        <testcase name="And user fill confirm passw field" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0003265">
+        </testcase>
+        <testcase name="And user click checkbox syarat &amp; ketentuan" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0004205">
+        </testcase>
+        <testcase name="When user click btn daftar" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0005423">
+        </testcase>
+        <testcase name="Then register failed with wrong phone number" classname="register-on-the-web;register-failed-on-arkademy-with-wrong-phone-number" time="0.0002406">
         </testcase>
     </testsuite>
     <testsuite name="register-on-the-web;user-access-register-on-arkademy" tests="10" failures="0" skipped="0">
@@ -31,25 +83,25 @@
             <property name="URI" value="F:/job/DTI/arkademy-register/features/register.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000955">
+        <testcase name="Given user browse register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003754">
         </testcase>
-        <testcase name="And user access register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004233">
+        <testcase name="And user access register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004169">
         </testcase>
-        <testcase name="And user fill name field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004583">
+        <testcase name="And user fill name field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000349">
         </testcase>
-        <testcase name="And user fill email field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0002298">
+        <testcase name="And user fill email field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000307">
         </testcase>
-        <testcase name="And user fill phone field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000484">
+        <testcase name="And user fill phone field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003106">
         </testcase>
-        <testcase name="And user fill password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003836">
+        <testcase name="And user fill password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000282">
         </testcase>
-        <testcase name="And user fill confirm password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003346">
+        <testcase name="And user fill confirm password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0002872">
         </testcase>
-        <testcase name="And user click checkbox" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0002454">
+        <testcase name="And user click checkbox" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003222">
         </testcase>
-        <testcase name="When user click sign" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003985">
+        <testcase name="When user click sign" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004538">
         </testcase>
-        <testcase name="Then register success" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004117">
+        <testcase name="Then register success" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000498">
         </testcase>
     </testsuite>
 </testsuites>

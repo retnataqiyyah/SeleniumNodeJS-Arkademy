@@ -5,14 +5,14 @@ module.exports = function () {
     this.Given(/^user access register pages$/, function () {
         helpers.loadPage(shared.pages.devRegister)
     });
-    this.Given(/^user fill name field with numeric$/, function () {
-        driver.sleep(1000).then(function (){
-            return page.fillNameInvalid.performFill()
+    this.Given(/^user fill names field$/, function () {
+        driver.then(function (){
+            return page.fillName.performFill()
         })
     });
     this.Given(/^user fill invalid e-mail field$/, function () {
         driver.sleep(1000).then(function (){
-            return page.fillEmailInvalid.performFill()
+            return page.fillEmail.performFill()
         })
     });
     this.Given(/^user fill phones field$/, function () {
@@ -41,6 +41,6 @@ module.exports = function () {
         })
     });
     this.Then(/^register failed$/, function () {
-        helpers.getElementsContainingText('nav[role="navigation"] ul li a', 'Register Failed');
+        helpers.getElementsContainingText('Register Failed');
     });
 }
