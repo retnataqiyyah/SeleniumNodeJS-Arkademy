@@ -1,0 +1,686 @@
+[
+  {
+    "description": "\t    As a user\n\t    I want to be able to add education",
+    "elements": [
+      {
+        "id": "add-edu-on-the-web;user-access-login-on-arkademy",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User access login on arkademy",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page",
+            "result": {
+              "status": "passed",
+              "duration": 2299000
+            },
+            "line": 7,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access login page",
+            "result": {
+              "status": "passed",
+              "duration": 1903800
+            },
+            "line": 8,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 990000
+            },
+            "line": 9,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 624300
+            },
+            "line": 10,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click masuk",
+            "result": {
+              "status": "passed",
+              "duration": 1189900
+            },
+            "line": 11,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile picture",
+            "result": {
+              "status": "passed",
+              "duration": 427500
+            },
+            "line": 12,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile",
+            "result": {
+              "status": "passed",
+              "duration": 1844300
+            },
+            "line": 13,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click tambah at Riwayat pendidikan",
+            "result": {
+              "status": "passed",
+              "duration": 906000
+            },
+            "line": 14,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill school field",
+            "result": {
+              "status": "passed",
+              "duration": 872000
+            },
+            "line": 15,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill major field",
+            "result": {
+              "status": "passed",
+              "duration": 521200
+            },
+            "line": 16,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click entry year field",
+            "result": {
+              "status": "passed",
+              "duration": 585200
+            },
+            "line": 17,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click entry 2021",
+            "result": {
+              "status": "passed",
+              "duration": 656700
+            },
+            "line": 18,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click graduation year field",
+            "result": {
+              "status": "passed",
+              "duration": 498700
+            },
+            "line": 19,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click graduation 2023",
+            "result": {
+              "status": "passed",
+              "duration": 5929600
+            },
+            "line": 20,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click add edu",
+            "result": {
+              "status": "passed",
+              "duration": 530600
+            },
+            "line": 21,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click preview&save",
+            "result": {
+              "status": "passed",
+              "duration": 937100
+            },
+            "line": 22,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click save",
+            "result": {
+              "status": "passed",
+              "duration": 663000
+            },
+            "line": 23,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\addedu-steps.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53620288300
+            },
+            "hidden": true,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-edu-on-the-web",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add edu on the web",
+    "tags": [],
+    "uri": "F:/job/DTI/arkademy-edu/features/addedu.feature"
+  },
+  {
+    "description": "\t    As a user\n\t    I want to be able to delete education",
+    "elements": [
+      {
+        "id": "del-edu-on-the-web;user-access_login-on-arkademy",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User access_login on arkademy",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse_login page",
+            "result": {
+              "status": "passed",
+              "duration": 660800
+            },
+            "line": 7,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access_login page",
+            "result": {
+              "status": "passed",
+              "duration": 574600
+            },
+            "line": 8,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill_email field",
+            "result": {
+              "status": "passed",
+              "duration": 673400
+            },
+            "line": 9,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill_password field",
+            "result": {
+              "status": "passed",
+              "duration": 601200
+            },
+            "line": 10,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_masuk",
+            "result": {
+              "status": "passed",
+              "duration": 565500
+            },
+            "line": 11,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_profile picture",
+            "result": {
+              "status": "passed",
+              "duration": 338000
+            },
+            "line": 12,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_profile",
+            "result": {
+              "status": "passed",
+              "duration": 399900
+            },
+            "line": 13,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_tambah at Riwayat pendidikan",
+            "result": {
+              "status": "passed",
+              "duration": 510900
+            },
+            "line": 14,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_hapus",
+            "result": {
+              "status": "passed",
+              "duration": 536400
+            },
+            "line": 15,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click_preview&save",
+            "result": {
+              "status": "passed",
+              "duration": 467000
+            },
+            "line": 16,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click_save",
+            "result": {
+              "status": "passed",
+              "duration": 531700
+            },
+            "line": 17,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\deledu-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 45731756700
+            },
+            "hidden": true,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "del-edu-on-the-web",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Del edu on the web",
+    "tags": [],
+    "uri": "F:/job/DTI/arkademy-edu/features/deledu.feature"
+  },
+  {
+    "description": "\t    As a user\n\t    I want to be able to add education",
+    "elements": [
+      {
+        "id": "add-edu-on-the-web;user-access-login_on-arkademy",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User access login_on arkademy",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login_page",
+            "result": {
+              "status": "passed",
+              "duration": 608700
+            },
+            "line": 7,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access login_page",
+            "result": {
+              "status": "passed",
+              "duration": 587500
+            },
+            "line": 8,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email_field",
+            "result": {
+              "status": "passed",
+              "duration": 568100
+            },
+            "line": 9,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password_field",
+            "result": {
+              "status": "passed",
+              "duration": 514700
+            },
+            "line": 10,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click masuk_",
+            "result": {
+              "status": "passed",
+              "duration": 766600
+            },
+            "line": 11,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile_picture",
+            "result": {
+              "status": "passed",
+              "duration": 489500
+            },
+            "line": 12,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile_",
+            "result": {
+              "status": "passed",
+              "duration": 426600
+            },
+            "line": 13,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click tambah_at Riwayat pendidikan",
+            "result": {
+              "status": "passed",
+              "duration": 558100
+            },
+            "line": 14,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill school_field",
+            "result": {
+              "status": "passed",
+              "duration": 820000
+            },
+            "line": 15,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill major_field",
+            "result": {
+              "status": "passed",
+              "duration": 379400
+            },
+            "line": 16,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click entry_year field",
+            "result": {
+              "status": "passed",
+              "duration": 379100
+            },
+            "line": 17,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click entry_2021",
+            "result": {
+              "status": "passed",
+              "duration": 619300
+            },
+            "line": 18,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click graduation_year field",
+            "result": {
+              "status": "passed",
+              "duration": 569300
+            },
+            "line": 19,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click graduation_2023",
+            "result": {
+              "status": "passed",
+              "duration": 840700
+            },
+            "line": 20,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click add_edu",
+            "result": {
+              "status": "passed",
+              "duration": 455900
+            },
+            "line": 21,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click preview&save_",
+            "result": {
+              "status": "passed",
+              "duration": 380400
+            },
+            "line": 22,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click save_",
+            "result": {
+              "status": "passed",
+              "duration": 389400
+            },
+            "line": 23,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\step-definitions\\invedu-steps.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53098648300
+            },
+            "hidden": true,
+            "match": {
+              "location": "F:\\job\\DTI\\arkademy-edu\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-edu-on-the-web",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add edu on the web",
+    "tags": [],
+    "uri": "F:/job/DTI/arkademy-edu/features/invedu.feature"
+  }
+]

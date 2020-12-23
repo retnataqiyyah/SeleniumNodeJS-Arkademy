@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="add-edu-on-the-web;user-access-login-on-arkademy" tests="17" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:/job/DTI/arkademy-edu/features/addedu.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.002299">
+        </testcase>
+        <testcase name="And user access login page" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0019038">
+        </testcase>
+        <testcase name="And user fill email field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.00099">
+        </testcase>
+        <testcase name="And user fill password field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0006243">
+        </testcase>
+        <testcase name="And user click masuk" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0011899">
+        </testcase>
+        <testcase name="And user click profile picture" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0004275">
+        </testcase>
+        <testcase name="And user click profile" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0018443">
+        </testcase>
+        <testcase name="And user click tambah at Riwayat pendidikan" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.000906">
+        </testcase>
+        <testcase name="And user fill school field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.000872">
+        </testcase>
+        <testcase name="And user fill major field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0005212">
+        </testcase>
+        <testcase name="And user click entry year field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0005852">
+        </testcase>
+        <testcase name="And user click entry 2021" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0006567">
+        </testcase>
+        <testcase name="And user click graduation year field" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0004987">
+        </testcase>
+        <testcase name="And user click graduation 2023" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0059296">
+        </testcase>
+        <testcase name="And user click add edu" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0005306">
+        </testcase>
+        <testcase name="And user click preview&amp;save" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.0009371">
+        </testcase>
+        <testcase name="Then user click save" classname="add-edu-on-the-web;user-access-login-on-arkademy" time="0.000663">
+        </testcase>
+    </testsuite>
+    <testsuite name="del-edu-on-the-web;user-access_login-on-arkademy" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:/job/DTI/arkademy-edu/features/deledu.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse_login page" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0006608">
+        </testcase>
+        <testcase name="And user access_login page" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0005746">
+        </testcase>
+        <testcase name="And user fill_email field" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0006734">
+        </testcase>
+        <testcase name="And user fill_password field" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0006012">
+        </testcase>
+        <testcase name="And user click_masuk" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0005655">
+        </testcase>
+        <testcase name="And user click_profile picture" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.000338">
+        </testcase>
+        <testcase name="And user click_profile" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0003999">
+        </testcase>
+        <testcase name="And user click_tambah at Riwayat pendidikan" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0005109">
+        </testcase>
+        <testcase name="And user click_hapus" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0005364">
+        </testcase>
+        <testcase name="And user click_preview&amp;save" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.000467">
+        </testcase>
+        <testcase name="Then user click_save" classname="del-edu-on-the-web;user-access_login-on-arkademy" time="0.0005317">
+        </testcase>
+    </testsuite>
+    <testsuite name="add-edu-on-the-web;user-access-login_on-arkademy" tests="17" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:/job/DTI/arkademy-edu/features/invedu.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login_page" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0006087">
+        </testcase>
+        <testcase name="And user access login_page" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0005875">
+        </testcase>
+        <testcase name="And user fill email_field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0005681">
+        </testcase>
+        <testcase name="And user fill password_field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0005147">
+        </testcase>
+        <testcase name="And user click masuk_" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0007666">
+        </testcase>
+        <testcase name="And user click profile_picture" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0004895">
+        </testcase>
+        <testcase name="And user click profile_" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0004266">
+        </testcase>
+        <testcase name="And user click tambah_at Riwayat pendidikan" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0005581">
+        </testcase>
+        <testcase name="And user fill school_field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.00082">
+        </testcase>
+        <testcase name="And user fill major_field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0003794">
+        </testcase>
+        <testcase name="And user click entry_year field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0003791">
+        </testcase>
+        <testcase name="And user click entry_2021" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0006193">
+        </testcase>
+        <testcase name="And user click graduation_year field" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0005693">
+        </testcase>
+        <testcase name="And user click graduation_2023" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0008407">
+        </testcase>
+        <testcase name="And user click add_edu" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0004559">
+        </testcase>
+        <testcase name="And user click preview&amp;save_" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0003804">
+        </testcase>
+        <testcase name="Then user click save_" classname="add-edu-on-the-web;user-access-login_on-arkademy" time="0.0003894">
+        </testcase>
+    </testsuite>
+</testsuites>
