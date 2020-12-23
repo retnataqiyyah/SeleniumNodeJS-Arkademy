@@ -1,10 +1,11 @@
 module.exports = {
-    email: "retnadiba@gmail.com",
-    emailinv: "retna.gmail.com",
-    name: "Retna Taqiyyah",
-    nameinv: "98Retna",
-    phone: "081394049532",
-    pass: "retnaretna",
-    passinv: "retna",
-    confpass: "retnaretna"
+    email: "nurlaelaknisa@gmail.com",
+    pass: "Allahno1.",
+    emailinv: "nurlaelaknisa28@gmail.com",
+    passinv: "Icha2807",
+    emailinv2: "nurlaelaknisa28@gmail.com",
+    passinv2: "Allahno1.",
+    emailinv3: "nurlaelaknisa@gmail.com",
+    passinv3: "Icha2807"
+
 }

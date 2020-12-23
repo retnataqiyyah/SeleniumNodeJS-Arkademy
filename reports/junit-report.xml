@@ -1,55 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="register-on-the-web;user-access-register-on-arkademy.com" tests="10" failures="0" skipped="0">
+    <testsuite name="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="F:/job/DTI/arkademy-register/features/register-invalid.feature">
+            <property name="URI" value="E:/loginarkademy/features/login-invalid.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0022343">
+        <testcase name="Given user browse invalid Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0005649">
         </testcase>
-        <testcase name="And user access register pages" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0010016">
+        <testcase name="And user access invalid Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0002685">
         </testcase>
-        <testcase name="And user fill name field with numeric" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0009553">
+        <testcase name="And user fill invalid email field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0003605">
         </testcase>
-        <testcase name="And user fill invalid e-mail field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0012447">
+        <testcase name="And user fill invalid password field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0001827">
         </testcase>
-        <testcase name="And user fill phones field" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0006546">
+        <testcase name="And user click invalid checkbox" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0002237">
         </testcase>
-        <testcase name="And user fill pass field less than eight character" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0003817">
+        <testcase name="When user invalid click sign" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0002704">
         </testcase>
-        <testcase name="And user fill confirm pass field more than eight character" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0005696">
-        </testcase>
-        <testcase name="And user click checkbox syarat ketentuan" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.000715">
-        </testcase>
-        <testcase name="When user click daftar" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0006137">
-        </testcase>
-        <testcase name="Then register failed" classname="register-on-the-web;user-access-register-on-arkademy.com" time="0.0021459">
+        <testcase name="Then Login invalid" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user" time="0.0010352">
         </testcase>
     </testsuite>
-    <testsuite name="register-on-the-web;user-access-register-on-arkademy" tests="10" failures="0" skipped="0">
+    <testsuite name="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="F:/job/DTI/arkademy-register/features/register.feature">
+            <property name="URI" value="E:/loginarkademy/features/login-invalid2.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000955">
+        <testcase name="Given user browse invalidd2 Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0002564">
         </testcase>
-        <testcase name="And user access register page" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004233">
+        <testcase name="And user access invalid2 Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.000205">
         </testcase>
-        <testcase name="And user fill name field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004583">
+        <testcase name="And user fill invalid2 email field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0001041">
         </testcase>
-        <testcase name="And user fill email field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0002298">
+        <testcase name="And user fill invalid2 password field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0000917">
         </testcase>
-        <testcase name="And user fill phone field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.000484">
+        <testcase name="And user click invalid2 checkbox" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.000088">
         </testcase>
-        <testcase name="And user fill password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003836">
+        <testcase name="When user invalid2 click sign" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0001356">
         </testcase>
-        <testcase name="And user fill confirm password field" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003346">
+        <testcase name="Then Login invalid2" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0001684">
         </testcase>
-        <testcase name="And user click checkbox" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0002454">
+    </testsuite>
+    <testsuite name="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="E:/loginarkademy/features/login-invalid3.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse invalidd3 Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0002837">
         </testcase>
-        <testcase name="When user click sign" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0003985">
+        <testcase name="And user access invalid3 Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0001971">
         </testcase>
-        <testcase name="Then register success" classname="register-on-the-web;user-access-register-on-arkademy" time="0.0004117">
+        <testcase name="And user fill invalid3 email field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0000924">
+        </testcase>
+        <testcase name="And user fill invalid3 password field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0000903">
+        </testcase>
+        <testcase name="And user click invalid3 checkbox" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0002442">
+        </testcase>
+        <testcase name="When user invalid3 click sign" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0002499">
+        </testcase>
+        <testcase name="Then Login invalid3" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user" time="0.0003828">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="E:/loginarkademy/features/login-valid.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.0002195">
+        </testcase>
+        <testcase name="And user access Login page" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.000399">
+        </testcase>
+        <testcase name="And user fill email field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.000198">
+        </testcase>
+        <testcase name="And user fill password field" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.0002115">
+        </testcase>
+        <testcase name="And user click checkbox" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.0001029">
+        </testcase>
+        <testcase name="When user click sign" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.000196">
+        </testcase>
+        <testcase name="Then Login success" classname="login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user" time="0.0001869">
         </testcase>
     </testsuite>
 </testsuites>

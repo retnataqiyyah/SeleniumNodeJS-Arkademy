@@ -1,141 +1,102 @@
 [
   {
-    "description": "    As a user\n    I want to be able to register",
+    "description": "    As a user\n    I want to be able to Login",
     "elements": [
       {
-        "id": "register-on-the-web;user-access-register-on-arkademy.com",
+        "id": "login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-and-password-existing-user",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "User access register on arkademy.com",
+        "line": 7,
+        "name": "Verify Login on arkademy.com features with Invalid Data Email and Password Existing User",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse register pages",
+            "name": "user browse invalid Login page",
             "result": {
               "status": "passed",
-              "duration": 2234300
-            },
-            "line": 6,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:2"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user access register pages",
-            "result": {
-              "status": "passed",
-              "duration": 1001600
-            },
-            "line": 7,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:5"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill name field with numeric",
-            "result": {
-              "status": "passed",
-              "duration": 955300
+              "duration": 564900
             },
             "line": 8,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:8"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:2"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill invalid e-mail field",
+            "name": "user access invalid Login page",
             "result": {
               "status": "passed",
-              "duration": 1244700
+              "duration": 268500
             },
             "line": 9,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:13"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill phones field",
+            "name": "user fill invalid email field",
             "result": {
               "status": "passed",
-              "duration": 654600
+              "duration": 360500
             },
             "line": 10,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:18"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:10"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill pass field less than eight character",
+            "name": "user fill invalid password field",
             "result": {
               "status": "passed",
-              "duration": 381700
+              "duration": 182700
             },
             "line": 11,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:23"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:16"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill confirm pass field more than eight character",
+            "name": "user click invalid checkbox",
             "result": {
               "status": "passed",
-              "duration": 569600
+              "duration": 223700
             },
             "line": 12,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user click checkbox syarat ketentuan",
-            "result": {
-              "status": "passed",
-              "duration": 715000
-            },
-            "line": 13,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:33"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click daftar",
+            "name": "user invalid click sign",
             "result": {
               "status": "passed",
-              "duration": 613700
+              "duration": 270400
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:38"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "register failed",
+            "name": "Login invalid",
             "result": {
               "status": "passed",
-              "duration": 2145900
+              "duration": 1035200
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-invalid-steps.js:43"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid.js:33"
             }
           },
           {
@@ -143,11 +104,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 13844347100
+              "duration": 9298445100
             },
             "hidden": true,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "E:\\loginarkademy\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -155,59 +116,294 @@
         "type": "scenario"
       }
     ],
-    "id": "register-on-the-web",
+    "id": "login-on-the-web-arkademy.com",
     "keyword": "Feature",
-    "line": 1,
-    "name": "Register on the web",
+    "line": 3,
+    "name": "Login on the web arkademy.com",
     "tags": [],
-    "uri": "F:/job/DTI/arkademy-register/features/register-invalid.feature"
+    "uri": "E:/loginarkademy/features/login-invalid.feature"
   },
   {
-    "description": "    As a user\n    I want to be able to register",
+    "description": "    As a user\n    I want to be able to Login ",
     "elements": [
       {
-        "id": "register-on-the-web;user-access-register-on-arkademy",
+        "id": "login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "User access register on arkademy",
+        "line": 7,
+        "name": "Verify Login on arkademy.com features with Invalid Data Email Existing User",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse register page",
+            "name": "user browse invalidd2 Login page",
             "result": {
               "status": "passed",
-              "duration": 955000
-            },
-            "line": 6,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:2"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user access register page",
-            "result": {
-              "status": "passed",
-              "duration": 423300
-            },
-            "line": 7,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:5"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill name field",
-            "result": {
-              "status": "passed",
-              "duration": 458300
+              "duration": 256400
             },
             "line": 8,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:8"
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access invalid2 Login page",
+            "result": {
+              "status": "passed",
+              "duration": 205000
+            },
+            "line": 9,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid2 email field",
+            "result": {
+              "status": "passed",
+              "duration": 104100
+            },
+            "line": 10,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid2 password field",
+            "result": {
+              "status": "passed",
+              "duration": 91700
+            },
+            "line": 11,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click invalid2 checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 88000
+            },
+            "line": 12,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user invalid2 click sign",
+            "result": {
+              "status": "passed",
+              "duration": 135600
+            },
+            "line": 13,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Login invalid2",
+            "result": {
+              "status": "passed",
+              "duration": 168400
+            },
+            "line": 14,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid2.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 9040549500
+            },
+            "hidden": true,
+            "match": {
+              "location": "E:\\loginarkademy\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-web-arkademy.com",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on the web arkademy.com",
+    "tags": [],
+    "uri": "E:/loginarkademy/features/login-invalid2.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to Login ",
+    "elements": [
+      {
+        "id": "login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-invalid-data-email-existing-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Login on arkademy.com features with Invalid Data Email Existing User",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse invalidd3 Login page",
+            "result": {
+              "status": "passed",
+              "duration": 283700
+            },
+            "line": 8,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access invalid3 Login page",
+            "result": {
+              "status": "passed",
+              "duration": 197100
+            },
+            "line": 9,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid3 email field",
+            "result": {
+              "status": "passed",
+              "duration": 92400
+            },
+            "line": 10,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid3 password field",
+            "result": {
+              "status": "passed",
+              "duration": 90300
+            },
+            "line": 11,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click invalid3 checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 244200
+            },
+            "line": 12,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user invalid3 click sign",
+            "result": {
+              "status": "passed",
+              "duration": 249900
+            },
+            "line": 13,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Login invalid3",
+            "result": {
+              "status": "passed",
+              "duration": 382800
+            },
+            "line": 14,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-invalid3.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 8795500100
+            },
+            "hidden": true,
+            "match": {
+              "location": "E:\\loginarkademy\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-web-arkademy.com",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on the web arkademy.com",
+    "tags": [],
+    "uri": "E:/loginarkademy/features/login-invalid3.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to Login ",
+    "elements": [
+      {
+        "id": "login-on-the-web-arkademy.com;verify-login-on-arkademy.com-features-with-valid-data-existing-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Login on arkademy.com features with Valid Data Existing User",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse Login page",
+            "result": {
+              "status": "passed",
+              "duration": 219500
+            },
+            "line": 8,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access Login page",
+            "result": {
+              "status": "passed",
+              "duration": 399000
+            },
+            "line": 9,
+            "match": {
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:6"
             }
           },
           {
@@ -216,24 +412,11 @@
             "name": "user fill email field",
             "result": {
               "status": "passed",
-              "duration": 229800
-            },
-            "line": 9,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill phone field",
-            "result": {
-              "status": "passed",
-              "duration": 484000
+              "duration": 198000
             },
             "line": 10,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:18"
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:10"
             }
           },
           {
@@ -242,24 +425,11 @@
             "name": "user fill password field",
             "result": {
               "status": "passed",
-              "duration": 383600
+              "duration": 211500
             },
             "line": 11,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill confirm password field",
-            "result": {
-              "status": "passed",
-              "duration": 334600
-            },
-            "line": 12,
-            "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:28"
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:16"
             }
           },
           {
@@ -268,11 +438,11 @@
             "name": "user click checkbox",
             "result": {
               "status": "passed",
-              "duration": 245400
+              "duration": 102900
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:33"
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:22"
             }
           },
           {
@@ -281,24 +451,24 @@
             "name": "user click sign",
             "result": {
               "status": "passed",
-              "duration": 398500
+              "duration": 196000
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:38"
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "register success",
+            "name": "Login success",
             "result": {
               "status": "passed",
-              "duration": 411700
+              "duration": 186900
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\step-definitions\\register-steps.js:43"
+              "location": "E:\\loginarkademy\\step-definitions\\login-valid.js:33"
             }
           },
           {
@@ -306,11 +476,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 10694403400
+              "duration": 8641284700
             },
             "hidden": true,
             "match": {
-              "location": "F:\\job\\DTI\\arkademy-register\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "E:\\loginarkademy\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -318,11 +488,11 @@
         "type": "scenario"
       }
     ],
-    "id": "register-on-the-web",
+    "id": "login-on-the-web-arkademy.com",
     "keyword": "Feature",
-    "line": 1,
-    "name": "Register on the web",
+    "line": 3,
+    "name": "Login on the web arkademy.com",
     "tags": [],
-    "uri": "F:/job/DTI/arkademy-register/features/register.feature"
+    "uri": "E:/loginarkademy/features/login-valid.feature"
   }
 ]
